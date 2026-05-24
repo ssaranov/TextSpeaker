@@ -36,7 +36,7 @@ namespace TextToSpeech.Services
         {
             httpContext.Session.SetInt32("UserId", userId);
         }
-        public void SignOut(HttpContext httpContext,int userId)
+        public void SignOut(HttpContext httpContext)
         {
             httpContext.Session.Clear();
         }

@@ -13,7 +13,7 @@ namespace TextToSpeech.Services
 
         void SignIn(HttpContext context, int userId);
 
-        void SignOut(HttpContext context, int userId);
+        void SignOut(HttpContext context);
 
     }
 }
